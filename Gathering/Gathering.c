@@ -30,12 +30,12 @@ int s,a,b;
 		printf("Press 3 for multiplication\n");
 		printf("Press 4 for division\n");
 		printf("Press 5 for modulo\n");
-		printf("Press 6 for the exit\n");
+		printf("Press 0 for the exit\n");
 				
 		printf("enter selected number :");
 		scanf("%d",&s);
 		
-		if(s>=1 && s<6){
+		if(s<=5 && s>0){
 			
 			printf("enter any value  A :");
 			scanf("%d",&a);
@@ -67,5 +67,5 @@ int s,a,b;
 			}
 		}
 		
-	}while(s!=6);
+	}while(s!=0);
 }
