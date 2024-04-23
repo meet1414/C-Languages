@@ -1,20 +1,13 @@
 #include<stdio.h>
-main(){
+main()
+{
+	int a1 ,a2 ,a3;
+	printf("A1 of triangle =");
+	scanf("%d",&a2);
 	
-    int a, b, c;
-
-    /* Input two angles of the triangle */
-    
-    printf("Enter two angles of triangle: ");
-    scanf("%d%d", &a, &b);
-
-    /* Compute third angle */
-    
-    c = 180 - (a + b);
-
-    /* Print value of the third angle */
-    
-    printf("Third angle of the triangle = %d", c);
-
-
+	printf("A2 of triangle =");
+	scanf("%d",&a1);
+	
+	a3=180 - (a1+a2);
+	printf("enter the arae of triangle = %d",a3);
 }
